@@ -1,0 +1,284 @@
+:root {
+
+    font-family: monospace;
+    --gray1: #333333;
+    --gray2: #4F4F4F;
+    ;
+
+    letter-spacing: -3.5%;
+
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('Inconsolata-Regular.ttf') format('truetype');
+
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    margin: 0px;
+    border: 0px;
+    background-color: #00000000;
+}
+
+#mainblock {
+    min-width: 1440px;
+    width: 100vmax;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 8px;
+}
+
+/**Header Block*/
+header {
+    align-self: flex-start;
+    margin-top: 40px;
+    margin-left: 77px;
+}
+
+header span {
+    width: 133px;
+    height: 25px;
+
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25.18px;
+    letter-spacing: -20%;
+    text-transform: uppercase;
+
+}
+
+/**Main Block*/
+main {
+    display: inline-flex;
+}
+
+/*Figure Block*/
+figure {
+    margin: 0px 119px 0px 77px;
+    
+}
+
+img {
+    width: 539.22px;
+    height: 447.43px;
+}
+
+/*Section Block*/
+section {
+    margin-right: 119px;
+}
+
+h1 {
+    width: 586px;
+    height: 190px;
+
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 94.78px;
+    color: var(--gray1);
+
+    margin-top: 0px;
+    margin-bottom: 36px;
+}
+
+p {
+    width: 381px;
+    height: 108px;
+
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--gray2);
+
+    margin-top: 0px;
+    margin-bottom: 64px;
+}
+
+button {
+    width: 216px;
+    height: 68px;
+    background-color: var(--gray1);
+
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    line-height: 20.73px;
+    text-transform: uppercase;
+
+
+    border: 0px;
+
+}
+
+/**Footer Block*/
+footer {
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width:1439px) {
+    #mainblock {
+        min-width: 1024px;
+    }
+
+    main {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+    header {
+        margin-left: 5vw;
+    }
+
+    figure {
+        margin: 0px 5vw 0px 5vw;
+    }
+
+    img {
+        width: 520px;
+        height: 425px;
+    }
+}
+
+section {
+    margin-right: 3vw;
+}
+
+h1 {
+    width: 450px;
+    height: 190px;
+    font-size: 4.5em;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1.6em;
+
+}
+
+
+@media screen and (max-width:1200px) {
+
+    main {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+
+    header {
+        margin-left: 5vw;
+    }
+
+    figure {
+        margin: 0px 3vw 0px 3vw;
+    }
+
+    img {
+        width: 520px;
+        height: 425px;
+    }
+
+    section {
+        margin-right: 1vw;
+    }
+
+    h1 {
+        width: 400px;
+        height: 190px;
+        font-size: 3.9em;
+    }
+
+    p {
+        width: 300px;
+
+        font-weight: 400;
+        font-size: 1.4em;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) {
+
+    #mainblock {
+        min-width: 375px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    /**Header Block*/
+    header {
+        align-self: flex-start;
+        margin-top: 20px;
+        margin-left: 24px;
+    }
+
+    /**Main Block*/
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+        margin-bottom: auto;
+    }
+
+    /*Figure Block*/
+    figure {
+        margin: auto;
+    }
+
+    img {
+
+        height: 237.35203552246094px;
+        width: 286.829833984375px;
+
+    }
+
+    /*Section Block*/
+    section {
+        margin-top: 60px;
+        margin-left: 24px;
+    }
+
+    h1 {
+        width: 350px;
+        height: 142px;
+
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 71px;
+
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        width: 328px;
+        height: 81px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+
+        margin-top: 0px;
+        margin-bottom: 66px;
+    }
+
+
+    /**Footer Block*/
+    footer {
+        margin-bottom: 24px;
+        justify-self: flex-end;
+    }
+
+
+}
